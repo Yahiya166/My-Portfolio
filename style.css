@@ -1,54 +1,94 @@
-*{
+/* Google Fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Ubuntu:wght@400;700&display=swap');
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    text-decoration: none;
+    text-decoration: none !important;
 }
 
-.flexx{
+.flexx {
     flex-wrap: wrap;
 }
 
-.conatiner-fluid{
-    background: transparent;
+/* Navbar Styling Start */
+
+.navbar {
+    position: fixed;
+    background-color: transparent ;
+    /* background-color: crimson; */
+    width: 100%;
+    padding: 20px 60px;
+    /* padding: 5px 60px; */
 }
 
-.head{
-    background-color: #0009;
-    height: 100vh;
-    padding: 0px 10px;
-}
-
-header{
-    background-color: transparent;
-}
-
-header h1 {
-    cursor: pointer;
-}
-
-header h1 span{
-    color: red;
-}
-
-header nav ul li{
-    display: inline-block;
-    margin: 5px 0px;
-}
-
-header nav ul li a {
-    text-decoration: none;
-    font-size: 25px;
-    margin: 0px 15px;
-    color: #000;
-    font-weight: bold;
-}
-
-.home{
-    margin-top: 250px;
-}
-
-.home p span{
+.navbar .logo a {
+    font-size: 35px;
+    font-family: 'ubuntu', sans-serif;
     font-weight: bold;
     color: #fff;
 }
+
+.navbar .logo a span {
+    color: crimson;
+}
+
+.navbar .list li {
+    list-style: none;
+    display: inline-block;
+    font-size: 23px;
+    margin-top: 10px;
+}
+
+.navbar .list li a {
+    color: #fff;
+    margin-right: 25px;
+    transition: color 0.3s ease;
+}
+
+.navbar .list li a:hover{
+    color: crimson;
+}
+
+/* Navbar Styling End */
+
+
+
+
+/* Home Styling Start */
+
+.home {
+    display: flex;
+    background: #000;
+    height: 100vh;
+    min-height: 500px;
+    font-family: 'ubuntu', sans-serif;
+}
+
+.home .home-content{
+    margin: auto 0 auto 65px;
+    color: #fff;
+}
+
+.home .home-content .text-1{
+    font-size: 27px;
+}
+
+.home .home-content .text-2{
+    font-size: 75px;
+    font-weight: 600;
+    margin-left: -3px;
+}
+
+.home .home-content .text-3{
+    font-size: 40px;
+    margin: 5px 0;
+}
+
+.home .home-content .text-3 span{
+    color: crimson;
+    font-weight: 500;
+}
+
+/* Home Styling End */
