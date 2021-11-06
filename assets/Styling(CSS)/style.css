@@ -212,6 +212,7 @@ section {
 .seviceBackColor {
     color: #fff;
     background-color: #111;
+    height: 100vh;
 }
 
 .services {
@@ -295,7 +296,6 @@ section {
 
 .skills {
     font-family: 'Poppins', sans-serif;
-    /* background-color: #111; */
 }
 
 .skills .tittle {
@@ -320,7 +320,7 @@ section {
 }
 
 .skills .tittle::after {
-    content: '';
+    content: 'What i know';
     position: absolute;
     bottom: -12px;
     left: 50%;
@@ -329,6 +329,51 @@ section {
     padding: 5px;
     background: #fff;
     transform: translateX(-50%);
+}
+
+.skills .skill-content .row  {
+    align-items: center;
+}
+
+.skills .skill-content .row .left .text{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.skills .skill-content .row .right .bars {
+    margin-bottom: 15px;
+}
+
+.skills .skill-content .row .right .info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.skills .skill-content .row .right .info span {
+    font-weight: 700;
+}
+
+.skills .skill-content .row .right .line {
+    height: 5px;
+    width: 100%;
+    background: lightgrey;
+    margin: 10px 0;
+    position: relative;
+}
+
+.skills .skill-content .row .right .line::before {
+    content: '';
+    position: absolute;
+    height: 100%;
+    left: 0;
+    top: 0;
+    color: crimson;
+}
+
+.skill-content .row .right .html::before {
+    width: 90%;
 }
 
 /* Skills Styling End */
