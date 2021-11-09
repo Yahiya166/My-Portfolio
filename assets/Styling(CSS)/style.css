@@ -27,8 +27,8 @@ section {
     position: fixed;
     width: 100%;
     z-index: 999;
-    /* background-color: transparent; */
-    /* padding: 10px 0; */
+    /* background-color: transparent;
+    padding: 10px 0; */
     padding: 5px 0;
     background-color: crimson;
 }
@@ -212,7 +212,6 @@ section {
 .seviceBackColor {
     color: #fff;
     background-color: #111;
-    height: 100vh;
 }
 
 .services {
@@ -331,14 +330,31 @@ section {
     transform: translateX(-50%);
 }
 
-.skills .skill-content .row  {
+.skills .skill-content .row {
     align-items: center;
 }
 
-.skills .skill-content .row .left .text{
+.skills .skill-content .row .left .text {
     font-size: 20px;
     font-weight: 600;
     margin-bottom: 10px;
+}
+
+.skills .skill-content .row .left a {
+    display: inline-block;
+    background: crimson;
+    color: #fff;
+    font-size: 16px;
+    padding: 10px 30px;
+    border-radius: 6px;
+    margin-top: 10px;
+    border: 2px solid crimson;
+    transition: all 0.3s ease;
+}
+
+.skills .skill-content .row .left a:hover {
+    background: none;
+    color: crimson;
 }
 
 .skills .skill-content .row .right .bars {
@@ -353,27 +369,6 @@ section {
 
 .skills .skill-content .row .right .info span {
     font-weight: 700;
-}
-
-.skills .skill-content .row .right .line {
-    height: 5px;
-    width: 100%;
-    background: lightgrey;
-    margin: 10px 0;
-    position: relative;
-}
-
-.skills .skill-content .row .right .line::before {
-    content: '';
-    position: absolute;
-    height: 100%;
-    left: 0;
-    top: 0;
-    color: crimson;
-}
-
-.skill-content .row .right .html::before {
-    width: 90%;
 }
 
 /* Skills Styling End */
@@ -408,6 +403,12 @@ section {
     }
     .services .serv-content .cards .box {
         width: 100%;
+    }
+    .skills .skill-content .row .left a {
+        font-size: 16px;
+        padding: 10px 20px;
+        border-radius: 6px;
+        margin: 10px 0 20px 0;
     }
 }
 
