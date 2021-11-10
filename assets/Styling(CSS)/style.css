@@ -373,6 +373,90 @@ section {
 
 /* Skills Styling End */
 
+
+/* Resume Styling Start */
+
+.resume {
+    font-family: 'Poppins', sans-serif;
+}
+
+.resume .tittle {
+    position: relative;
+    font-family: 'ubuntu', sans-serif;
+    text-align: center;
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 60px;
+    padding-bottom: 20px;
+}
+
+.services .tittle::before {
+    content: '';
+    position: absolute;
+    bottom: 0px;
+    left: 50%;
+    width: 180px;
+    height: 3px;
+    background: #fff;
+    transform: translateX(-50%);
+}
+
+.resume .tittle::after {
+    content: 'Who i am';
+    position: absolute;
+    bottom: -12px;
+    left: 50%;
+    font-size: 20px;
+    color: crimson;
+    padding: 5px;
+    background: #111;
+    transform: translateX(-50%);
+}
+
+.resume .resume-content .row {
+    align-items: center;
+}
+
+.resume .resume-content .row .hrr {
+    display: none;
+}
+
+.resume .resume-content .row .text {
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.resume .resume-content .row .head {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.resume .resume-content .row .head-text {
+    margin: 15px 0;
+}
+
+.resume .resume-content .row .head-text span{
+    display: block;
+    margin: 5px 0;
+}
+
+.resume .resume-content .row .right a{
+    font-size: 16px;
+    color: #fff;
+    background-color: rgba(255, 255, 255, 0.15);
+    padding: 5px 15px;
+    border-radius: 5px;
+    cursor: text;
+}
+
+/* Resume Styling End */
+
+
+
+
+
 /* Responsive Start */
 
 @media only screen and (max-width: 1000px) {
@@ -410,6 +494,11 @@ section {
         border-radius: 6px;
         margin: 10px 0 20px 0;
     }
+
+    .resume .resume-content .row .hrr {
+        display: block;
+        margin: 40px 0;
+    }
 }
 
 @media only screen and (max-width: 600px) {
@@ -442,7 +531,15 @@ section {
         width: 250px;
         height: 250px;
     }
-}
+
+    .resume .resume-content .row ul li {
+        font-size: 14px;
+        
+    }
+
+    .resume .resume-content .row .text {
+        font-size: 30px;
+    }
 
 @media only screen and (max-width: 300px) {
     .home .home-content {
@@ -480,6 +577,11 @@ section {
         border-radius: 6px;
         margin-top: 5px;
         text-align: center;
+    }
+
+    .resume .resume-content .row ul li {
+        font-size: 10px;
+        
     }
 }
 
