@@ -373,7 +373,6 @@ section {
 
 /* Skills Styling End */
 
-
 /* Resume Styling Start */
 
 .resume {
@@ -437,12 +436,12 @@ section {
     margin: 15px 0;
 }
 
-.resume .resume-content .row .head-text span{
+.resume .resume-content .row .head-text span {
     display: block;
     margin: 5px 0;
 }
 
-.resume .resume-content .row .right a{
+.resume .resume-content .row .right a {
     font-size: 16px;
     color: #fff;
     background-color: rgba(255, 255, 255, 0.15);
@@ -452,8 +451,6 @@ section {
 }
 
 /* Resume Styling End */
-
-
 
 /* Contact Styling Start */
 
@@ -532,12 +529,71 @@ section {
     font-weight: 500;
 }
 
+.contact .contact-content .row .right form .fields {
+    display: flex;
+}
 
+.contact .contact-content .row .right form .field,
+.contact .contact-content .row .right form .fields .field {
+    height: 45px;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.contact .contact-content .row .right form .field input,
+.contact .contact-content .row .right form .textarea textarea {
+    height: 100%;
+    width: 100%;
+    border: 1px solid lightgrey;
+    border-radius: 6px;
+    outline: none;
+    padding: 0 10px;
+    font-size: 17px;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.contact .contact-content .row .right form .name {
+    margin-right: 10px;
+}
+
+.contact .contact-content .row .right form .email {
+    margin-left: 10px;
+}
+
+.contact .contact-content .row .right form .textarea {
+    height: 80px;
+}
+
+.contact .contact-content .row .right form .textarea textarea {
+    padding-top: 10px;
+    resize: none;
+}
+
+.contact .contact-content .row .right form .submit {
+    height: 47px;
+    width: 170px;
+}
+
+.contact .contact-content .row .right form .submit button {
+    height: 100%;
+    width: 100%;
+    border: 1px solid crimson;
+    background: crimson;
+    color: #fff;
+    border-radius: 6px;
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.contact .contact-content .row .right form .submit button:hover {
+    background: #fff;
+    color: crimson;
+}
 
 /* Contact Styling End */
-
-
-
 
 /* Responsive Start */
 
@@ -576,7 +632,6 @@ section {
         border-radius: 6px;
         margin: 10px 0 20px 0;
     }
-
     .resume .resume-content .row .hrr {
         display: block;
         margin: 40px 0;
@@ -613,22 +668,17 @@ section {
         width: 250px;
         height: 250px;
     }
-
     .resume .resume-content .row ul li {
         font-size: 14px;
-        
     }
-
     .resume .resume-content .row .text {
         font-size: 30px;
-    } 
-    
-    .contact .contact-content .row .left .icons .rowe .info {
-        /* font-size: 20px;
-        margin-left: 10px; */
-        text-align: center;
     }
-    
+    /* .contact .contact-content .row .left .icons .rowe .info {
+        font-size: 20px;
+        margin-left: 10px;
+        text-align: center;
+    } */
     /* .contact .contact-content .row .left .icons .rowe .info .head {
         font-weight: 600;
     }
@@ -637,7 +687,6 @@ section {
         color: #111;
         font-weight: 500;
     } */
-
 }
 
 @media only screen and (max-width: 300px) {
@@ -677,12 +726,9 @@ section {
         margin-top: 5px;
         text-align: center;
     }
-
     .resume .resume-content .row ul li {
         font-size: 10px;
-        
     }
-
     .contact .contact-content .row .left .icons .rowe .info {
         font-size: 20px;
         margin-left: 5px;
