@@ -65,6 +65,8 @@ padding: 10px 0; */
 }
 
 .navbar .nav-item a {
+    font-size: 23px !important;
+    font-weight: 500;
     color: #fff !important;
     margin-right: 25px;
     transition: color 0.3s ease;
@@ -615,6 +617,36 @@ padding: 10px 0; */
 
 /* Contact Styling End */
 
+
+
+/* footer Styling Start */
+
+footer {
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+    padding: 20px 23px;
+    background-color: #111;
+    color: #fff;
+    text-align: center;
+    padding: 20px 23px 15px 23px;
+}
+
+footer span a {
+    color: crimson;
+}
+
+footer span a:hover {
+    color: crimson;
+    text-decoration: underline !important;
+}
+
+/* footer Styling End */
+
+
+
+
+
+
 /* Responsive Start */
 
 @media only screen and (max-width: 1000px) {
@@ -636,6 +668,11 @@ padding: 10px 0; */
         width: 100%;
         height: 100vh;
         margin-top: 100px;
+    }
+
+    .navbar .nav-item a {
+        font-size: 35px;
+        font-weight: 600;
     }
     
     .services .serv-content .cards .box {
