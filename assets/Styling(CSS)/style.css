@@ -11,7 +11,7 @@
     text-decoration: none !important;
 }
 
-html{
+html {
     scroll-behavior: smooth;
 }
 
@@ -28,8 +28,6 @@ section {
     padding: 100px 0;
 }
 
-/* background-color: transparent;
-padding: 10px 0; */
 
 /* Navbar Styling Start */
 
@@ -682,10 +680,12 @@ footer span a:hover {
     .about .about-content .row .left {
         text-align: center;
     }
+
     .about .about-content .row .left img {
         width: 350px;
         height: 350px;
     }
+
     .about .about-content .row .right {
         padding: 0 40px;
     }
@@ -703,7 +703,7 @@ footer span a:hover {
         font-size: 35px;
         font-weight: 600;
     }
-    
+
     .services .serv-content .cards .box {
         width: 45%;
     }
@@ -713,15 +713,18 @@ footer span a:hover {
     .about .about-content .row .right {
         margin-top: 40px;
     }
+
     .services .serv-content .cards .box {
         width: 100%;
     }
+
     .skills .skill-content .row .left a {
         font-size: 16px;
         padding: 10px 20px;
         border-radius: 6px;
         margin: 10px 0 20px 0;
     }
+
     .resume .resume-content .row .hrr {
         display: block;
         margin: 40px 0;
@@ -732,19 +735,23 @@ footer span a:hover {
     .home .home-content .text-1 {
         font-size: 20px;
     }
+
     .home .home-content .text-2 {
         font-size: 50px;
         font-weight: 600;
         margin-left: -3px;
     }
+
     .home .home-content .text-3 {
         font-size: 40px;
         margin: 5px 0;
     }
+
     .home .home-content .text-3 span {
         color: crimson;
         font-weight: 500;
     }
+
     .home .home-content a {
         font-size: 20px;
         padding: 10px 30px;
@@ -758,12 +765,15 @@ footer span a:hover {
         width: 250px;
         height: 250px;
     }
+
     .resume .resume-content .row ul li {
         font-size: 14px;
     }
+
     .resume .resume-content .row .text {
         font-size: 30px;
     }
+
     .contact .contact-content .row .left .icons .rowe .info .sub-tittle {
         color: #111;
         font-weight: 500;
@@ -775,32 +785,39 @@ footer span a:hover {
     .home .home-content {
         text-align: center;
     }
+
     .home .home-content a {
         font-size: 17px;
         padding: 8px 30px;
         border-radius: 6px;
         margin-top: 10px;
     }
+
     .home .home-content .text-1 {
         font-size: 20px;
     }
+
     .home .home-content .text-2 {
         font-size: 40px;
         font-weight: 600;
         margin-left: -3px;
     }
+
     .home .home-content .text-3 {
         font-size: 20px;
         margin: 5px 0;
     }
+
     .home .home-content .text-3 span {
         color: crimson;
         font-weight: 500;
     }
+
     .about .about-content .row .left img {
         width: 200px;
         height: 200px;
     }
+
     .about .about-content .row .right a {
         font-size: 15px;
         padding: 8px 20px;
@@ -808,12 +825,15 @@ footer span a:hover {
         margin-top: 5px;
         text-align: center;
     }
+
     .resume .resume-content .row ul li {
         font-size: 10px;
     }
+
     .contact .contact-content .row .left .icons .rowe .info {
         margin-left: 10px;
     }
+
     .contact .contact-content .row .left .icons .rowe .info .sub-tittle {
         color: #111;
         font-weight: 500;
